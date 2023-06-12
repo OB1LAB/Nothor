@@ -12,7 +12,7 @@
 + /nt hide - Скрыть выделенную область
 + /nt createGame {gameName} - Создать игру
 + /nt removeGame {gameName} - Удалить игру
-+ /nt {gameName} - Название игры
++ {gameName} - Название игры
 
 ## Использование:
 1. Создайте игру.
