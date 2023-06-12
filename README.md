@@ -76,4 +76,4 @@
 ![Global alert](https://cdn.discordapp.com/attachments/1070414565612982404/1117855980714213427/image.png)
 ![Wins msg](https://cdn.discordapp.com/attachments/1070414565612982404/1117862444019220641/image.png)****
 #### Глобальное уведомление о начале регистрации на игру, присоединение, выходе игроков, отсчёт времени и победы.
-### Благодарности за тестирование плагина: krissss, \_Desert_Eagle\_, Adolf1k
+### Благодарности за тестирование плагина: veretenica, krissss, \_Desert_Eagle\_, Adolf1k
