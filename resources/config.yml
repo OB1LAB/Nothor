@@ -1,0 +1,85 @@
+settings:
+  limitZone: 10000
+  permission: "OP"
+  sendGlobalMessageOnStartRegister: True
+messages:
+  noPermission: "&4Недостаточно прав для выполнения данной команды"
+  notEnoughArguments: "&4Недостаточно аргументов"
+  argumentNotFound: "&4Аргумент не найден"
+  selectPos: "&5Точка {number} установлена"
+  posNotFound: "&4Точка не найдена"
+  countSelectedPos: "&5Количество выделенных блоков: &b{count}"
+  differentWorlds: "&4Точки находятся в разных мирах, поэтому невозможно подсчитать количество выделенных блоков"
+  mustTwoPos: "&4Для области небходимо поставить две точки"
+  limitOverflow: "&4Количество выделенных блоков превышает лимит в {limit} блоков"
+  zoneShow: "&2Выделенная область показана"
+  zoneHide: "&2Выделенная область скрыта"
+  isZoneIsHide: "&4Выделенная область уже скрыта"
+  isZoneIsShow: "&4Выделенная область уже показана"
+  gameNotFound: "&4Игра с названием {game} не найдена"
+  teleportSuccessfullySet: "&2Телепорт для игры {game} успешно установлен"
+  locationSuccessfullySet: "&2Арена для игры {game} успешно создана"
+  gameIsCreate: "&4Игра с названием {game} уже есть"
+  gameSuccessfullyCreate: "&2Игра с названием {game} успешно создана"
+  gameSuccessfullyRemove: "&2Игра с названием {game} успешно удалена"
+  locationSuccessfullyRemove: "&2Арена на игре с названием {game} успешно удалена"
+  floorsInGame: "&4Эта арена уже находится в списке арен игры {game}, либо вы пытаетесь создать больше 7 арен для одной игры"
+  joinGame: "&2Вы успешно присоединились к игре"
+  gameStart: "&2Игра началась!"
+  isGameRunOrRegister: "&4Уже идёт игра, либо открыта регистрация"
+  startRegister: "&2Регистрация на игру {game} открыта"
+  notRegisterGame: "&4В данный момент не открытой регистрации на игру"
+  userInRegisterGame: "&4Ты уже зарегистрирован в игре"
+  userNotRegisterGame: "&4Ты не зарегистрирован ни в какой игре"
+  userUnRegisterGame: "&2Вы успешно покинули игру"
+  gameAmountLimit: "&4Лимит по количеству игр - 8"
+  firstAlertStartGame: "&6До начала игры 15 секунд"
+  alertStartGame: "&6Игра начнётся через {second}"
+  alertGameIsStart: "&2Игра началась!"
+  gameNotStart: "&2Никая игра ещё не началась"
+  creatorStopGame: "&6{player} завершил игру досрочно"
+  notEnoughPlayersToStartGame: "&4Минимальное количество игроков для начала игры - 4"
+  playerJoinGame: "&3{player}&6 присоединился к игре. Количество игроков - &3{count}"
+  playerExitGame: "&3{player}&6 покинул игру. Количество игроков - &3{count}"
+  playerLossGame: "&3{player}&6 выбал из игры. Осталось игроков - &3{count}"
+  commandAvailableOnlyPlayer: "&4Команда не найдена, либо она доступна только игрокам"
+  inventoryIsNotEmpty: "&4Для участия в игре ваш инвентарь должен быть пустым. В том числе и броня"
+  globalMessageOnStartRegister: "&6Открыта регистрация на сплиф, чтобы присоединиться введите команду &3/nt join"
+  infoWithoutPermission: "
+           &6------------------------------------\n
+           &e1. &3join - Присоединиться к игре\n
+           &e2. &3exit - Покинуть игру\n
+           &e3. &3info - Вывод текущего сообщения\n
+           &6------------------------------------
+        "
+  infoWithPermission: "
+             &6------------------------------------\n
+             &e1. &3join - Присоединиться к игре\n
+             &e2. &3exit - Покинуть игру\n
+             &e3. &3info - Вывод текущего сообщения\n
+             &e4. &3open - Открыть GUI интерфейс\n
+             &e5. &3pos1 - Поставить точку 1\n
+             &e6. &3pos2 - Поставить точку 2\n
+             &e7. &3show - Показать выделнную область\n
+             &e8. &3hide - Скрыть выделенную область\n
+             &e9. &3hide - Скрыть выделенную область\n
+             &e10. &3createGame {gameName} - Создать игру\n
+             &e11. &3removeGame {gameName} - Удалить игру\n
+             &7{gameName} - Название игры\n
+             &6------------------------------------
+          "
+  infoConsole: "
+               &6------------------------------------\n
+               &e1. &3info - Вывод текущего сообщения\n
+               &e2. &3createGame {gameName} - Создать игру\n
+               &e3. &3removeGame {gameName} - Удалить игру\n
+               &7{gameName} - Название игры\n
+               &6------------------------------------
+            "
+  winMsg: "
+          &6------------Победители ивента------------\n
+          &e1. &3{player1}\n
+          &e2. &3{player2}\n
+          &e3. &3{player3}\n
+          &6-----------------------------------------
+  "

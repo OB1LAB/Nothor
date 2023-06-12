@@ -1,0 +1,7 @@
+name: Nothor
+main: ru.ob1lab.nothor.Main
+version: 1.0
+commands:
+  nothor:
+    usage: /nothor
+    aliases: [ nt ]

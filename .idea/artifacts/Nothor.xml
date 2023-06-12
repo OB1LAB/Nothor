@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Nothor">
+    <output-path>$PROJECT_DIR$/../server/plugins</output-path>
+    <root id="archive" name="Nothor.jar">
+      <element id="module-output" name="nothor" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+    </root>
+  </artifact>
+</component>
