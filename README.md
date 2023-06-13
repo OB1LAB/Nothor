@@ -77,7 +77,7 @@
 
 ![Global alert](https://cdn.discordapp.com/attachments/1070414565612982404/1117855980714213427/image.png)
 
-![Wins msg](https://cdn.discordapp.com/attachments/1070414565612982404/1118098153296637982/image.png)
+![Wins msg](https://cdn.discordapp.com/attachments/1070414565612982404/1118173127051071558/image.png)
 
 #### Информационное сообщение, глобальное уведомление о начале регистрации на игру, присоединение, выходе игроков, отсчёт времени и победы.
 ### Благодарность за тестирование плагина: veretenica, krissss, \_Desert_Eagle\_, Adolf1k

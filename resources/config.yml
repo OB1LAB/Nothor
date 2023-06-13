@@ -41,7 +41,7 @@ messages:
   notEnoughPlayersToStartGame: "&4Минимальное количество игроков для начала игры - 4"
   playerJoinGame: "&3{player}&6 присоединился к игре. Количество игроков - &3{count}"
   playerExitGame: "&3{player}&6 покинул игру. Количество игроков - &3{count}"
-  playerLossGame: "&3{player}&6 выбал из игры. Осталось игроков - &3{count}"
+  playerLossGame: "&3{player}&6 выбыл из игры. Осталось игроков - &3{count}"
   commandAvailableOnlyPlayer: "&4Команда не найдена, либо она доступна только игрокам"
   inventoryIsNotEmpty: "&4Для участия в игре ваш инвентарь должен быть пустым. В том числе и броня"
   globalMessageOnStartRegister: "&6Открыта регистрация на сплиф, чтобы присоединиться введите команду &3/nt join"
