@@ -153,7 +153,7 @@ public class GameData implements Listener {
             player.teleport(locationSpawn);
             PlayersInGame.remove(player);
             HistoryLeave.add(player);
-            playersGameAlert(Message.playerExitGame.replace("{player}", player.getDisplayName()).replace("{count}", String.valueOf(PlayersInGame.size()))::send);
+            playersGameAlert(Message.playerLossGame.replace("{player}", player.getDisplayName()).replace("{count}", String.valueOf(PlayersInGame.size()))::send);
             return;
         }
         Players.remove(player);
@@ -204,7 +204,7 @@ public class GameData implements Listener {
                             Inventory playerInv = player.getInventory();
                             playerInv.clear();
                             player.teleport(locationSpawn);
-                            playersGameAlert(Message.playerExitGame.replace("{player}", player.getDisplayName()).replace("{count}", String.valueOf(PlayersInGame.size()))::send);
+                            playersGameAlert(Message.playerLossGame.replace("{player}", player.getDisplayName()).replace("{count}", String.valueOf(PlayersInGame.size()))::send);
                             break;
                         }
                         if (player.getFoodLevel() != 20) {
@@ -302,7 +302,7 @@ public class GameData implements Listener {
             player.teleport(locationSpawn);
             PlayersInGame.remove(player);
             HistoryLeave.add(player);
-            playersGameAlert(Message.playerExitGame.replace("{player}", player.getDisplayName()).replace("{count}", String.valueOf(PlayersInGame.size()))::send);
+            playersGameAlert(Message.playerLossGame.replace("{player}", player.getDisplayName()).replace("{count}", String.valueOf(PlayersInGame.size()))::send);
         }
     }
     @EventHandler

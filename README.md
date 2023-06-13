@@ -74,7 +74,10 @@
 + Зелёная - Начать игру
 
 ![Info msg](https://cdn.discordapp.com/attachments/1070414565612982404/1117889523662209244/image.png)
+
 ![Global alert](https://cdn.discordapp.com/attachments/1070414565612982404/1117855980714213427/image.png)
-![Wins msg](https://cdn.discordapp.com/attachments/1070414565612982404/1117862444019220641/image.png)****
+
+![Wins msg](https://cdn.discordapp.com/attachments/1070414565612982404/1118098153296637982/image.png)
+
 #### Информационное сообщение, глобальное уведомление о начале регистрации на игру, присоединение, выходе игроков, отсчёт времени и победы.
 ### Благодарности за тестирование плагина: veretenica, krissss, \_Desert_Eagle\_, Adolf1k
